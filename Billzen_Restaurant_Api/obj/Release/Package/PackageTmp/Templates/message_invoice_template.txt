@@ -1,0 +1,5 @@
+﻿Namaste "{{customer_name}}",
+Your Invoice is Ready ! with the following Invoice Number "{{invoice_no}}"
+You need to provide tihs Invoice Number to our Delivery Associate to accept the items.
+Please download the invoice from the attachment of this email.
+Before providing this invoice number to our delivery associate, You are requested to check and validate the items you are getting from our delivery associate with the items listed in this invoice.

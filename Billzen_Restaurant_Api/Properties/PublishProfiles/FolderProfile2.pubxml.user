@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\DELL\Desktop\confirmfinance-Api</_PublishTargetUrl>
+    <History>True|2022-10-05T07:40:27.0700405Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 21:59:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 21:59:20</publishTime>
+    </File>
+    <File Include="bin/BillZen.Warehouse.Api.dll">
+      <publishTime>10/05/2022 13:10:23</publishTime>
+    </File>
+    <File Include="bin/BillZen.Warehouse.Api.pdb">
+      <publishTime>10/05/2022 13:10:23</publishTime>
+    </File>
+    <File Include="bin/IronPdf.Assets.Rendering.Windows.dll">
+      <publishTime>03/08/2021 10:01:10</publishTime>
+    </File>
+    <File Include="bin/IronPdf.dll">
+      <publishTime>03/08/2021 17:29:22</publishTime>
+    </File>
+    <File Include="bin/iTextSharp.dll">
+      <publishTime>12/01/2011 21:56:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authentication.Abstractions.dll">
+      <publishTime>11/12/2018 22:59:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authentication.Core.dll">
+      <publishTime>11/12/2018 22:59:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authorization.dll">
+      <publishTime>11/12/2018 23:09:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authorization.Policy.dll">
+      <publishTime>11/12/2018 23:09:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Cors.dll">
+      <publishTime>11/12/2018 23:08:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <publishTime>11/12/2018 23:00:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <publishTime>11/12/2018 23:00:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Abstractions.dll">
+      <publishTime>11/12/2018 22:59:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.dll">
+      <publishTime>11/12/2018 22:59:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Extensions.dll">
+      <publishTime>11/12/2018 22:59:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>11/12/2018 22:58:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Mvc.Abstractions.dll">
+      <publishTime>11/12/2018 23:10:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Mvc.Core.dll">
+      <publishTime>11/12/2018 23:10:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Mvc.Cors.dll">
+      <publishTime>11/12/2018 23:10:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll">
+      <publishTime>11/12/2018 23:07:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Routing.Abstractions.dll">
+      <publishTime>11/12/2018 23:08:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Routing.dll">
+      <publishTime>11/12/2018 23:08:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.StaticFiles.dll">
+      <publishTime>11/12/2018 23:07:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>11/12/2018 22:59:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 21:40:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>05/16/2018 02:31:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>11/11/2018 05:56:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>11/11/2018 05:56:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/11/2018 05:56:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>05/16/2018 02:31:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>11/11/2018 05:56:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>11/12/2018 23:00:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>11/11/2018 05:56:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.ObjectPool.dll">
+      <publishTime>11/11/2018 05:56:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Options.dll">
+      <publishTime>11/11/2018 05:56:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Primitives.dll">
+      <publishTime>11/11/2018 05:56:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.WebEncoders.dll">
+      <publishTime>11/12/2018 22:58:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>01/10/2017 20:52:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>01/10/2017 20:53:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Net.Http.Headers.dll">
+      <publishTime>11/12/2018 22:58:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 17:18:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 06:36:16</publishTime>
+    </File>
+    <File Include="bin/NumberToEnglishWordConverter.dll">
+      <publishTime>12/30/2020 01:06:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 17:48:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 17:39:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 17:48:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 17:39:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 17:39:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 15:06:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 15:06:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 17:39:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 17:39:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/06/2016 00:25:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/06/2016 00:25:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 08:59:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/06/2016 00:25:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/06/2016 00:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/06/2016 00:25:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/06/2016 00:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/06/2016 00:26:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/06/2016 00:26:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/06/2016 00:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/06/2016 00:26:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/06/2016 00:26:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/06/2016 00:26:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/06/2016 00:26:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 08:59:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/06/2016 00:27:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/06/2016 00:27:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/06/2016 00:27:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/06/2016 00:27:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/06/2016 00:27:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/06/2016 00:27:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/06/2016 00:27:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/06/2016 00:27:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/06/2016 00:27:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/06/2016 00:27:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/06/2016 00:27:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/06/2016 00:27:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 17:48:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 17:39:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 11:08:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 17:48:16</publishTime>
+    </File>
+    <File Include="bin/SendGrid.dll">
+      <publishTime>07/15/2021 03:29:18</publishTime>
+    </File>
+    <File Include="bin/SendGrid.pdb">
+      <publishTime>07/15/2021 03:29:18</publishTime>
+    </File>
+    <File Include="bin/StarkbankEcdsa.dll">
+      <publishTime>04/07/2021 02:13:44</publishTime>
+    </File>
+    <File Include="bin/Swashbuckle.Core.dll">
+      <publishTime>07/08/2017 07:00:56</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>05/15/2018 18:59:34</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>05/15/2018 18:59:36</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/15/2018 18:59:40</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>01/10/2017 20:53:06</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>06/06/2018 18:59:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 18:30:36</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>07/19/2017 15:31:36</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>06/06/2018 18:59:04</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encodings.Web.dll">
+      <publishTime>05/15/2018 18:59:52</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>06/06/2018 18:59:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>11/28/2018 18:28:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 18:34:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 18:31:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 18:32:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 18:29:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 20:56:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 18:30:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 18:34:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 18:34:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 18:34:24</publishTime>
+    </File>
+    <File Include="bin/Twilio.dll">
+      <publishTime>07/01/2021 01:37:04</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>02/08/2013 22:12:28</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 19:27:34</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Templates/invoice_mail_body.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Templates/message_invoice_template.txt">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Templates/message_purchase_order_template.txt">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Templates/purchase_order_mail_body.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Templates/purchase_order_template.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Templates/sale_invoice_template.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/05/2022 13:10:24</publishTime>
+    </File>
+    <File Include="_temp/Invoice-INV-217194225+Neobric_IT.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_245288.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_283088.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_587712.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_679247.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_81670.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_837000.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM217221249_My_Customer_2_847707.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722128_My_Customer_1_632357.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722128_My_Customer_1_632357.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722128_My_Customer_1_653394.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722128_My_Customer_1_778134.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_348955.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_392573.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_392573.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_526352.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_526352.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_555999.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_692708.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_705040.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_745514.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_872200.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_HM21722243_My_Customer_2_877220.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217195830_Neobric_IT128499.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217195830_Neobric_IT128499.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217195830_Neobric_IT885104.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217195830_Neobric_IT885104.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217201444_New_India_Book_Store_592205.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217202724_New_India_Book_Store_226775.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-217202724_New_India_Book_Store_226775.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-2172057_New_India_Book_Store_455065.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-2172057_New_India_Book_Store_696083.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-2172057_New_India_Book_Store_696083.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Invoice_INV-2172057_New_India_Book_Store_720715.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_HM217222310_My_Supplier_646807.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_HM217224926_Local_Supplier_164521.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_HM217224926_Local_Supplier_166158.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_HM217224926_Local_Supplier_631956.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-217191240_Test_437915.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-217191240_Test_437915.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-21720312_Modi_Paper_Factory_172396.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-21720312_Modi_Paper_Factory_195411.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-21720312_Modi_Paper_Factory_579135.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-217203357_Modi_Paper_Factory_660508.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-217203357_Modi_Paper_Factory_660508.pdf">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-22425441_Big_Bazar_668895.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-22425924_Big_Bazar_213356.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/Purchase_Order_INV-22425924_Big_Bazar_642449.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+    <File Include="_temp/sale_invoice_INV-217194225.html">
+      <publishTime>09/24/2022 14:59:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

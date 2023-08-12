@@ -1,0 +1,327 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        #invoice {
+            padding: 30px;
+            font-family: 'Segoe UI Symbol';
+        }
+
+        .invoice {
+            position: relative;
+            background-color: #FFF;
+            min-height: 680px;
+            padding: 15px;
+            font-family: 'Segoe UI Symbol';
+        }
+
+            .invoice header {
+                padding: 10px 0;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #3989c6;
+                font-family: 'Segoe UI Symbol';
+            }
+
+            .invoice .company-details {
+                font-family: 'Segoe UI Symbol';
+                text-align: right
+            }
+
+                .invoice .company-details .name {
+                    font-family: 'Segoe UI Symbol';
+                    margin-top: 0;
+                    margin-bottom: 0
+                }
+
+            .invoice .contacts {
+                font-family: 'Segoe UI Symbol';
+                margin-bottom: 20px
+            }
+
+            .invoice .invoice-to {
+                font-family: 'Segoe UI Symbol';
+                text-align: left
+            }
+
+                .invoice .invoice-to .to {
+                    font-family: 'Segoe UI Symbol';
+                    margin-top: 0;
+                    margin-bottom: 0
+                }
+
+            .invoice .invoice-details {
+                font-family: 'Segoe UI Symbol';
+                text-align: right
+            }
+
+                .invoice .invoice-details .invoice-id {
+                    font-family: 'Segoe UI Symbol';
+                    margin-top: 0;
+                    color: #3989c6
+                }
+
+            .invoice main {
+                font-family: 'Segoe UI Symbol';
+                padding-bottom: 50px
+            }
+
+                .invoice main .thanks {
+                    font-family: 'Segoe UI Symbol';
+                    margin-top: -100px;
+                    font-size: 2em;
+                    margin-bottom: 50px
+                }
+
+                .invoice main .notices {
+                    font-family: 'Segoe UI Symbol';
+                    padding-left: 6px;
+                    border-left: 6px solid #3989c6
+                }
+
+                    .invoice main .notices .notice {
+                        font-family: 'Segoe UI Symbol';
+                        font-size: 1.2em
+                    }
+
+            .invoice table {
+                font-family: 'Segoe UI Symbol';
+                width: 100%;
+                border-collapse: collapse;
+                border-spacing: 0;
+                margin-bottom: 20px
+            }
+
+                .invoice table td, .invoice table th {
+                    font-family: 'Segoe UI Symbol';
+                    padding: 15px;
+                    background: #eee;
+                    border-bottom: 1px solid #fff
+                }
+
+                .invoice table th {
+                    font-family: 'Segoe UI Symbol';
+                    white-space: nowrap;
+                    font-weight: 400;
+                    font-size: 16px
+                }
+
+                .invoice table td h3 {
+                    font-family: 'Segoe UI Symbol';
+                    margin: 0;
+                    font-weight: 400;
+                    color: #3989c6;
+                    font-size: 1.2em
+                }
+
+                .invoice table .qty, .invoice table .total, .invoice table .unit {
+                    font-family: 'Segoe UI Symbol';
+                    text-align: right;
+                    font-size: 1.2em
+                }
+
+                .invoice table .no {
+                    font-family: 'Segoe UI Symbol';
+                    color: #fff;
+                    font-size: 1.6em;
+                    background: #3989c6
+                }
+
+                .invoice table .unit {
+                    font-family: 'Segoe UI Symbol';
+                    background: #ddd
+                }
+
+                .invoice table .total {
+                    font-family: 'Segoe UI Symbol';
+                    background: #3989c6;
+                    color: #fff
+                }
+
+                .invoice table tbody tr:last-child td {
+                    font-family: 'Segoe UI Symbol';
+                    border: none
+                }
+
+                .invoice table tfoot td {
+                    font-family: 'Segoe UI Symbol';
+                    background: 0 0;
+                    border-bottom: none;
+                    white-space: nowrap;
+                    text-align: right;
+                    padding: 10px 20px;
+                    font-size: 1.2em;
+                    border-top: 1px solid #aaa
+                }
+
+                .invoice table tfoot tr:first-child td {
+                    font-family: 'Segoe UI Symbol';
+                    border-top: none;
+                }
+
+                .invoice table tfoot tr:last-child td {
+                    font-family: 'Segoe UI Symbol';
+                    color: #3989c6;
+                    font-size: 1.4em;
+                    border-top: 1px solid #3989c6
+                }
+
+                .invoice table tfoot tr td:first-child {
+                    font-family: 'Segoe UI Symbol';
+                    border: none;
+                }
+
+            .invoice footer {
+                font-family: 'Segoe UI Symbol';
+                width: 100%;
+                text-align: center;
+                color: #777;
+                border-top: 1px solid #aaa;
+                padding: 8px 0
+            }
+
+        .footer_row td {
+            background-color: #fff !important;
+        }
+
+            .footer_row td:nth-child(2) {
+                border-bottom: 1px solid #aaa;
+                font-size: 18px !important;
+                font-weight: 100;
+                text-align: right;
+            }
+
+            .footer_row td:nth-child(3) {
+                border-bottom: 1px solid #aaa;
+                font-size: 18px !important;
+                font-weight: 100;
+                text-align: right;
+            }
+
+        @media print {
+            .invoice {
+                font-family: 'Segoe UI Symbol';
+                font-size: 11px !important;
+                overflow: hidden !important
+            }
+
+                .invoice footer {
+                    font-family: 'Segoe UI Symbol';
+                    position: absolute;
+                    bottom: 10px;
+                    page-break-after: always
+                }
+
+                .invoice > div:last-child {
+                    font-family: 'Segoe UI Symbol';
+                    page-break-before: always
+                }
+        }
+    </style>
+</head>
+<body>
+    <div id="invoice">
+        <div class="invoice overflow-auto">
+            <div style="min-width: 800px">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="name" style="text-align:center;">
+                            PURCHASE ORDER COPY
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="name" style="color:#5ec28e; text-align:center;">
+                            Hastalipi Manufacturing LLP
+                        </h1>
+                    </div>
+                </div>
+                <header>
+                    <div class="row">
+                        <div class="col company-details" style="text-align:center;">
+                            <h4 class="name">
+                                Communication
+                            </h4>
+                            <div>Bhubaneswar, odisha, India</div>
+                            <div>GSTIN - </div>
+                            <div>Mobile - 8801766286 | hastalipi@gmail.com</div>
+                            <div>http://www.hastalipi.com/</div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="row contacts">
+                        <div class="col invoice-to" style="float:left; width:50%">
+                            <div class="text-gray-light">INVOICE TO:</div>
+                            <h2 class="to">My Supplier</h2>
+                            <div class="address">Bhubaneswar, odisha, India. Shipping Via-</div>
+                            <h2>GSTIN - 109287-00019-100</h2>
+                            <div>WhatsApp- 8801766286</div>
+                            <div class="email">idkjena@gmail.com</div>
+                            <div>Memo- </div>
+                        </div>
+                        <div class="col invoice-details" style="float:right; width:50%">
+                            <div class="text-gray-light">INVOICE NUMBER:</div>
+                            <h1 class="invoice-id">HM217222310</h1>
+                            <div class="date">Date of Order: 22 July 2021</div>
+                            <div class="date">Due Date: 06 August 2021</div>
+                        </div>
+                    </div>
+                    <table border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+                        <thead>
+                            <tr>
+                                <td>#</td>
+                                <td>ITEM</td>
+                                <td>UNIT</td>
+                                <td>RATE</td>
+                                <td>QUANTITY</td>
+                                <td>GST</td>
+                                <td>ITEM TOTAL</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class='no'>1</td><td class='text-left'><h3>60 GSM Ruling Paper A4</h3>Notebooks<br>60 GSM Ruling Paper A4</td><td>Kgs.-Kilograms</td><td>₹55.00</td><td>50.0</td><td class='text-left'><h3>CGST - 5%</h3>5.0%</td><td>₹2887.50</td></tr><tr><td class='no'>2</td><td class='text-left'><h3>60 GSM Ruling Paper Jumbo</h3>Notebooks<br>60 GSM Ruling Paper Jumbo</td><td>Kgs.-Kilograms</td><td>₹55.00</td><td>50.0</td><td class='text-left'><h3>CGST - 5%</h3>5.0%</td><td>₹2887.50</td></tr><tr><td class='no'>3</td><td class='text-left'><h3>A4 Cover</h3>Notebooks<br>A4 Cover</td><td>Pcs.-Pieces</td><td>₹1.00</td><td>400.0</td><td class='text-left'><h3>CGST - 5%</h3>5.0%</td><td>₹420.00</td></tr><tr><td class='no'>4</td><td class='text-left'><h3>Jumbo Cover</h3>Notebooks<br>Jumbo Cover</td><td>Pcs.-Pieces</td><td>₹1.00</td><td>400.0</td><td class='text-left'><h3>SGST - 5%</h3>5.0%</td><td>₹420.00</td></tr>
+                            <tr class="footer_row">
+                                <td colspan="3"></td>
+                                <td colspan="2">SUBTOTAL</td>
+                                <td colspan="2">₹6300.00</td>
+                            </tr>
+                            <tr class="footer_row">
+                                <td colspan="3"></td>
+                                <td colspan="2">GST</td>
+                                <td colspan="2">₹315.00</td>
+                            </tr>
+                            <tr class="footer_row">
+                                <td colspan="3"></td>
+                                <td colspan="2">GRAND TOTAL</td>
+                                <td colspan="2">₹6615.00</td>
+                            </tr>
+                            <tr class="footer_row">
+                                <td colspan="3"></td>
+                                <td colspan="4" style="font-style:italic; font-size:15px !important; color:#3989c6; text-align:right;">Six Thousand Six Hundred Fifteen   Indian Rupees Only.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="thanks">Thank you!</div>
+                    <div class="notices">
+                        <div>MESSAGE:</div>
+                        <div class="notice"></div>
+                    </div>
+                </main>
+                <footer>
+                    <p>This is a system generated Invoice and intented to sent and acknowledged via e-mail, Hence signature/seal may not required.</p>
+                    <p>
+                        <a href="https://www.alongx.com" target="_blank">AlongX ERP</a>
+                    </p>
+                </footer>
+            </div>
+            <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>

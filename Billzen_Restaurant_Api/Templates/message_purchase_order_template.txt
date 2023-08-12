@@ -1,0 +1,4 @@
+﻿Namaste "{{supplier_name}}",
+Purchase Order ! with the following Invoice Number - "{{invoice_no}}"
+With this purchase order, We are requesting you to supply us the mentioned raw materials within the due date.
+You are requested to maintain this invoice number while maintaining your transaction on the same.
