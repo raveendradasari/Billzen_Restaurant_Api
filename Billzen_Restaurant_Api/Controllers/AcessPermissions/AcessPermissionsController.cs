@@ -13,13 +13,18 @@ namespace Billzen_Restaurant_Api.Controllers
     {
 
         [HttpPost]
-        public DBResponse Post([FromBody] AcessPermissionsModel _model)
+        public DBResponse Post([FromBody] List<AcessPermissionsModel> _model)
         {
             DBResponse response = new DBResponse();
             try
             {
                 AcessPermissions request = new AcessPermissions();
-                response = request.SaveAcessPermissions(_model);
+
+                foreach (var x in _model)
+                {
+                    response = request.SaveAcessPermissions(x);
+
+                }
                 return response;
             }
             catch (Exception ex)

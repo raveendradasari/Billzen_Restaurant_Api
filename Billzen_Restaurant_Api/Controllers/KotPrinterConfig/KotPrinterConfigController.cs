@@ -21,13 +21,20 @@ namespace Billzen_Restaurant_Api.Controllers
 
 
         [HttpPost]
-        public DBResponse Post([FromBody] KotPrinterConfigModel _model)
+        public DBResponse Post([FromBody] List<KotPrinterConfigModel> _model)
         {
             DBResponse response = new DBResponse();
             try
+
             {
                 KotPrinterConfig request = new KotPrinterConfig();
-                response = request.SaveKotPrinterCongig(_model);
+                foreach(var x in _model)
+                {
+                   
+                    response = request.SaveKotPrinterCongig(x);
+                }
+
+                
                 return response;
             }
             catch (Exception ex)
