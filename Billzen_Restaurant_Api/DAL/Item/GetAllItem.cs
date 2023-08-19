@@ -40,6 +40,8 @@ namespace Billzen_Restaurant_Api.DAL.Item
                     hsnCode = row.Field<string>("hsnCode"),
                     salePrice = row.Field<decimal>("salePrice"),
                     taxRate = row.Field<string>("taxRate"),
+                    sequence_num = row.Field<int>("sequence_num"),
+
                     //txnDineInRate = row.Field<decimal>("txnDineInRate"),
                     //txnTakeAwayRate = row.Field<decimal>("txnTakeAwayRate"),
                     //txnHomeDeliveryRate = row.Field<decimal>("txnHomeDeliveryRate"),

@@ -40,6 +40,7 @@ namespace Billzen_Restaurant_Api.DAL.Item
                     salePrice = row.Field<decimal>("salePrice"),
                     taxRate = row.Field<string>("taxRate"),
                     discount_percentage = row.Field<string>("discount_percentage"),
+                    sequence_num = row.Field<int>("sequence_num"),
                     isActive = row.Field<bool>("isActive"),
 
 
@@ -154,6 +155,12 @@ namespace Billzen_Restaurant_Api.DAL.Item
                     name = "discount_percentage",
                     datatype = SqlDbType.NVarChar,
                     value = Request.discount_percentage
+                  },
+                      new SqlStoreProcedureEntity()
+                  {
+                    name = "sequence_num",
+                    datatype = SqlDbType.Int,
+                    value = Request.sequence_num.ToString()
                   },
                       new SqlStoreProcedureEntity()
                   {

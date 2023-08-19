@@ -21,11 +21,9 @@ namespace Billzen_Restaurant_Api.Models
         public string hsnCode { get; set; }
         public decimal salePrice { get; set; }
         public string taxRate { get; set; }
-        //public decimal txnDineInRate { get; set; }
-        //public decimal txnTakeAwayRate { get; set; }
-        //public decimal txnHomeDeliveryRate { get; set; }
-        //public decimal txnOnlineRate { get; set; }
-        //public decimal itemRate { get; set; }
+        public int sequence_num { get; set; }
+
+
 
 
 

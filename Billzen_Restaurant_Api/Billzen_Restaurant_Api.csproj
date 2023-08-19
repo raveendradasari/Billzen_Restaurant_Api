@@ -308,6 +308,7 @@
     <Compile Include="Controllers\KotPrinterConfig\KotPrinterConfigController.cs" />
     <Compile Include="Controllers\Login\LoginController.cs" />
     <Compile Include="Controllers\Login\UserLoginController.cs" />
+    <Compile Include="Controllers\Page\PageController.cs" />
     <Compile Include="Controllers\Printer\PrinterController.cs" />
     <Compile Include="Controllers\Reports\SalesByCategoryController.cs" />
     <Compile Include="Controllers\Reports\SalesByCategorySubCategoryController.cs" />
@@ -339,6 +340,7 @@
     <Compile Include="DAL\KotConfig\KotConfig.cs" />
     <Compile Include="DAL\KotPrinterConfig\KotPrinterConfig.cs" />
     <Compile Include="DAL\Login\Login.cs" />
+    <Compile Include="DAL\Page\Page.cs" />
     <Compile Include="DAL\Printer\Printer.cs" />
     <Compile Include="DAL\Reports\SalesByCategory.cs" />
     <Compile Include="DAL\Reports\SalesByCategorySubCategory.cs" />
@@ -371,6 +373,7 @@
     <Compile Include="Models\KotConfigPeraModel.cs" />
     <Compile Include="Models\KotPrinterConfigModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\PageModel.cs" />
     <Compile Include="Models\PrinterModel.cs" />
     <Compile Include="Models\RolesModel.cs" />
     <Compile Include="Models\SalesReportByCategoryName\SalesByCategoryModel.cs" />

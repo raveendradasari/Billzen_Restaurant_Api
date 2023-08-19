@@ -20,6 +20,7 @@ namespace Billzen_Restaurant_Api.Models
         public decimal salePrice { get; set; }
         public string taxRate { get; set; }
         public string discount_percentage { get; set; }
+        public int sequence_num { get; set; }
 
         public bool isActive { get; set; }
 
